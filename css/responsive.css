@@ -347,36 +347,77 @@
   }
 
 
+/* Estilos del toggler solo para el navbar móvil */
+#navbar-mobile .navbar-toggler {
+  border: 1px solid #ffffff !important;
+  padding: 0.6rem;
+  margin-left: auto;
+  order: 2;
+  background: transparent;
+  border-radius: 5px;
+  transition: transform 0.3s ease, background 0.3s ease;
+}
+
+#navbar-mobile .navbar-toggler:hover {
+  transform: scale(1.1);
+  background: rgba(255, 255, 255, 0.08);
+}
+
+#navbar-mobile .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3E%3Cpath stroke='%23FFFFFF' stroke-width='2.5' stroke-linecap='round' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  width: 1.2em;
+  height: 1.2em;
+  filter: none !important;
+}
+
+#navbar-mobile .navbar-toggler:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.2);
+}
 
 
-  /* Espaciado cómodo entre enlaces */
-  #navbar-mobile .nav-link {
-    padding: 18px 15px;
-    font-size: 1rem;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-  }
 
-  /* Dropdown personalizado */
-  #navbar-mobile .dropdown-menu {
-    background-color: #222;
-    padding: 0;
-    border: none;
-    margin-top: 5px;
-    width: 100%;
-  }
 
-  #navbar-mobile .dropdown-menu .dropdown-item {
-    padding: 10px 20px;
-    font-size: 0.95rem;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
-  }
 
-  /* Íconos más amigables */
-  #navbar-mobile .nav-link i,
-  #navbar-mobile .dropdown-item i {
-    font-size: 1rem;
-    margin-right: 8px;
-  }
+/* Estilo base de los enlaces en el navbar móvil */
+#navbar-mobile .nav-link {
+  padding: 16px 14px;
+  font-size: 0.95rem;
+  font-family: 'Orbitron', 'Montserrat', 'Segoe UI', sans-serif;
+  color: #f5f5f5;
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+/* Dropdown principal */
+#navbar-mobile .dropdown-menu {
+  background-color: #1b1b1b;
+  padding: 0;
+  border: none;
+  margin-top: 5px;
+  width: 100%;
+}
+
+/* Estilo de cada opción en el dropdown */
+#navbar-mobile .dropdown-menu .dropdown-item {
+  padding: 10px 20px;
+  font-size: 0.92rem;
+  font-family: 'Orbitron', 'Montserrat', 'Segoe UI', sans-serif;
+  color: #f0f0f0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+/* Íconos con color claro fijo */
+#navbar-mobile .nav-link i,
+#navbar-mobile .dropdown-item i {
+  font-size: 1rem;
+  margin-right: 8px;
+  color: #ffffff;
+}
 
 
 
@@ -870,7 +911,7 @@
   }
 
 .offcanvas-mobile-width  {
-    width: 75vw !important; /* Ancho del menú móvil */
+    width: 65vw !important; /* Ancho del menú móvil */
   }
 
 
@@ -1073,6 +1114,7 @@
   .quienes-somos-mobile {
     display: block;
     padding: 1.5rem;
+    background-color: #F5F5F5;
     
   }
 
@@ -1172,6 +1214,25 @@
 
   .vision-mobile::before {
     content: "\f06e"; /* ícono ojo */
+  }
+
+
+   .quienes-somos-mobile,
+  .grid-quienes-mobile,
+  .quienes-texto-mobile,
+  .quienes-texto-mobile p,
+  .quienes-texto-mobile h3,
+  .titulo-quienes-mobile h2,
+  .card-mobile,
+  .card-mobile h2,
+  .card-mobile p {
+    font-family: 'Poppins', 'Segoe UI', sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.2px;
+  }
+
+  .card-mobile h2 {
+    font-weight: 600;
   }
 }
 
