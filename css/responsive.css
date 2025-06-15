@@ -653,7 +653,6 @@
 @media (max-width: 950px){
 
 .hero-section{
-  background-image: url(../imagenes/fondo.jpg);
   height: 80vh;
   
 }
@@ -886,7 +885,7 @@
   }
 
 .hero-section{
-  background-image: url(../imagenes/fondo.jpg);
+
   height: 80vh;
 }
 
@@ -1066,7 +1065,7 @@
   }
 
 .hero-section{
-  background-image: url(../imagenes/fondo.jpg);
+
   height: 80vh;
 }
 
