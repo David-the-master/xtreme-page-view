@@ -1185,7 +1185,14 @@
     font-size: 14px;
   }
 
+  .navbar-brand .brand-text {
+    font-size: 0.82rem;
+  }
 
+  .navbar-brand img {
+    height: 50px;
+    width: 50px;
+  }
   /* Animación del honguito */
   .mushroom {
     width: 45px;
