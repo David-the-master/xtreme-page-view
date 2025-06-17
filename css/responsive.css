@@ -1474,8 +1474,8 @@
     /* Estilo para el contenedor flotante de búsqueda */
 .floating-search {
   display: none;
-  position: absolute;
-  top: 110px; /* ajustado ligeramente */
+  position: fixed ;
+  top: 170px; /* ajustado ligeramente */
   left: 0;
   width: 100%;
   z-index: 999;
@@ -1733,7 +1733,7 @@
   }
 
   .floating-search {
-    top: 100px;
+    top: 120px;
   }
 
   .search-container {
@@ -1929,7 +1929,7 @@
   }
 
   .floating-search {
-    top: 95px;
+    top: 135px;
   }
 
   .search-container {
@@ -1939,8 +1939,8 @@
   }
 
   .search-input {
-    padding: 0.5rem 1rem 0.5rem 2rem;
-    font-size: 0.82rem;
+    padding: 1rem 2rem 1rem 3rem;
+    font-size: 0.9rem;
   }
 
   .search-icon {
