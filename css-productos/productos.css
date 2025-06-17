@@ -229,7 +229,7 @@ body {
 
 /* Hover sobre ítems */
 .dropdown-menu a.dropdown-item:hover {
-  background-color: #00ff9d;
+  background-color: var(--nav-hover); ;
   color: #111;
   padding-left: 30px;
   border-left: 3px solid #4facfe;
